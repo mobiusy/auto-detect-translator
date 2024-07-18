@@ -1,0 +1,28 @@
+{
+  "name": "auto-detect-translator",
+  "version": "1.0.0",
+  "description": "detect source langurage, and auto tranlate to target languarage",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "npx nodemon",
+    "build": "rimraf build && tsc",
+    "start": "npm run build && node build/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "translator"
+  ],
+  "author": "mobiusy",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "tencentcloud-sdk-nodejs-common": "^4.0.899"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.11",
+    "nodemon": "^3.1.4",
+    "rimraf": "^6.0.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.3"
+  }
+}
