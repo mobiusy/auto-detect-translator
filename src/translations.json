@@ -1,0 +1,19 @@
+{
+  "中文": "Chinese",
+  "英文": "English",
+  "插件管理": "plug-in management",
+  "上传文件": "upload files",
+  "文件": "file",
+  "获取": "obtain",
+  "列表": "list",
+  "导入": "import",
+  "创建一条导入操作记录": "Create an import operation record",
+  "解析": "parsing",
+  "返回全部": "back to all",
+  "表中的全部数据": "All data in the table",
+  "不包括删除的": "Excluding deleted",
+  "按": "according to",
+  "分组": "packet",
+  "创建": "create",
+  "导入操作记录": "Import operation record"
+}
